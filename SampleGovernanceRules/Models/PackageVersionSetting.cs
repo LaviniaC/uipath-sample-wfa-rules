@@ -24,10 +24,10 @@ namespace SampleGovernanceRules.Models
 
         private static bool TryParseSemVersion(string version, out SemVersion semVersion)
         {
-            if (!string.IsNullOrEmpty(version) && SemVersion.TryParse(version, out semVersion))
-            {
-                return true;
-            }
+            //if (!string.IsNullOrEmpty(version) && SemVersion.TryParse(version, out semVersion))
+            //{
+            //    return true;
+            //}
 
             semVersion = null;
             return false;
